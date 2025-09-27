@@ -35,6 +35,7 @@ This project demonstrates how seismologists handle real seismic data, and it is 
    - Basic waveform analysis and visualization achieved.
   
    - #  Import libraries
+import obspy
 from obspy import read, UTCDateTime
 from obspy.clients.fdsn import Client
 import matplotlib.pyplot as plt
